@@ -1,0 +1,104 @@
+name: sgmasms
+description: "A new Flutter project."
+# publish_to: 'none'
+version: 1.0.34+34
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  dartz: ^0.10.1 # for using dart functions
+  rxdart: ^0.27.7 # for using rxdart
+  equatable: ^2.0.5 # for checking equality
+  flutter_bloc: ^8.1.6 # for state management
+  get_it: ^7.6.7 # for dependency management
+  url_launcher: ^6.2.5 # for launching url
+  intl: ^0.19.0 # for formatting data
+  pretty_dio_logger: ^1.3.1 # for loggin api response
+  dio: ^5.4.1 # for calling api
+  simple_animations: ^5.0.2 # for using animation
+  flutter_svg: ^2.0.10+1 # for using svg image
+  hive: ^2.2.3 # for using hive local storage
+  hive_flutter: ^1.1.0 # for using hive local storage
+  go_router: ^14.1.4 # for managing routes and navigation
+  flutter_staggered_grid_view: ^0.7.0 # for showing data in Grid View
+  cached_network_image: ^3.3.1 # for showing and caching network image
+  file_picker: ^6.2.0 # for picking image
+  package_info_plus: ^4.2.0 # for getting package info
+  device_info_plus: ^9.1.2 # for getting device info
+  url_strategy: ^0.2.0 # for routing and navigation
+  permission_handler: ^11.3.0 # for getting permission
+  marquee_text: ^2.5.0+1 # for showing live text
+  fade_shimmer: ^2.2.0 # for showing fade shimmer effect
+  webview_flutter: ^4.8.0 # for showing webview
+  
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+  # for generating hive adapter => dart run build_runner build
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/logos/
+  - assets/images/
+  - assets/icons/
+  - assets/fonts/
+  - assets/json/
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Light.ttf
+          weight: 300
+          style: normal
+        - asset: assets/fonts/Rubik-Regular.ttf
+          weight: 400
+          style: normal
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+          style: normal
+        - asset: assets/fonts/Rubik-SemiBold.ttf
+          weight: 600
+          style: normal
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+          style: normal
+        - asset: assets/fonts/Rubik-ExtraBold.ttf
+          weight: 800
+          style: normal
+
+    - family: AnekGujarati
+      fonts:
+        - asset: assets/fonts/AnekGujarati-Light.ttf
+          weight: 300
+          style: normal
+        - asset: assets/fonts/AnekGujarati-Regular.ttf
+          weight: 400
+          style: normal
+        - asset: assets/fonts/AnekGujarati-Medium.ttf
+          weight: 500
+          style: normal
+        - asset: assets/fonts/AnekGujarati-SemiBold.ttf
+          weight: 600
+          style: normal
+        - asset: assets/fonts/AnekGujarati-Bold.ttf
+          weight: 700
+          style: normal
+        - asset: assets/fonts/AnekGujarati-ExtraBold.ttf
+          weight: 800
+          style: normal
+
+
+# flutter build apk --split-per-abi --release
+# flutter build web --web-renderer=html --release
+# flutter build web --wasm --release  -> new way to build

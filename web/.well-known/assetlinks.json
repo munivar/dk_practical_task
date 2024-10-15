@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.sgma.sgma",
+            "sha256_cert_fingerprints": [
+                "B5:CD:6F:70:1D:DA:6F:8C:D9:0D:27:F4:1C:C6:68:7D:CA:61:A5:29:4C:8E:49:DA:1D:6E:F4:D2:ED:4F:1F:C4"
+            ]
+        }
+    }
+]
